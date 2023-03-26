@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "polarpy"
+version = "0.1.1"
+description = "Tools for reading and fusing live data streams from Polar OH1 (PPG) and H10 (ECG) sensors."
+authors = ["wideopentech <fossie@wideoppentech.co.uk>"]
+license = "MIT"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+]
+repository = "https://github.com/wideopensource/polarpy"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pygatttool = "^0.1.1a3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
